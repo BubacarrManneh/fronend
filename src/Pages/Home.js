@@ -5,8 +5,8 @@ import { TextField, Switch, makeStyles } from "@material-ui/core";
 
 import { addToCart, removeFromCart, changeTheme } from "../Redux/action";
 import CountryTable from "../Table/CountriesTable";
-import Cart from "../components/Cart";
-import { CartContext } from "../components/CartContext";
+import Cart from "../Components/Cart";
+import { CartContext } from "../Components/CartContext";
 
 const useStyles = makeStyles({
   HomeTheme: {

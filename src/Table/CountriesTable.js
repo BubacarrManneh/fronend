@@ -24,7 +24,7 @@ function CountriesTable({ countries}) {
       <Table>
         <CountriesTableHead />
         <TableBody>
-          <CountriesTableRow countries={countries} />
+          <CountriesTableRow countries={countries}/>
         </TableBody>
       </Table>
     </TableContainer>

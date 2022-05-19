@@ -1,6 +1,6 @@
 import React from 'react'
 import { TableRow, TableCell} from '@material-ui/core'
-import Buttons from '../components/Button'
+import Buttons from '../Components/Button'
 import { makeStyles } from "@material-ui/core/styles";
 import { useDispatch, useSelector } from "react-redux";
 import {addToCart} from '../Redux/action'
@@ -29,7 +29,7 @@ function CountriesTableRow({countries} = "country") {
           <TableCell>
             <img src={country.flags.png} alt="flag" />
           </TableCell>
-          <TableCell key={country.id} className={classes.tableCell} align="center">
+          <TableCell key={country.country} className={classes.tableCell} align="center">
              {country.name}
           </TableCell>
           <TableCell
